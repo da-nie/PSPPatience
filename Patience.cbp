@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="Patience" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Release">
+				<Option output="Release\Patience.elf" prefix_auto="1" extension_auto="0" />
+				<Option object_output="Release\" />
+				<Option type="0" />
+				<Option compiler="psp_compiler" />
+				<Compiler>
+					<Add option="-O3" />
+				</Compiler>
+				<Linker>
+					<Add option="-lpspgum" />
+					<Add option="-lpspgu" />
+					<Add option="-lpspdebug" />
+					<Add option="-lpspdisplay" />
+					<Add option="-lpspctrl" />
+					<Add option="-lpspsdk" />
+					<Add option="-lpsplibc" />
+					<Add option="-lpspnet_inet" />
+					<Add option="-lpspnet_apctl" />
+					<Add option="-lpspnet_resolver" />
+					<Add option="-lpsputility" />
+					<Add option="-lpspuser" />
+					<Add option="-lpspge" />
+					<Add option="-lpspkernel" />
+					<Add library="E:\From PSP\devkitPSP\psp\lib\libc.a" />
+					<Add library="E:\From PSP\devkitPSP\psp\lib\libg.a" />
+					<Add library="E:\From PSP\devkitPSP\psp\lib\libiberty.a" />
+					<Add library="E:\From PSP\devkitPSP\psp\lib\libm.a" />
+					<Add library="E:\From PSP\devkitPSP\psp\lib\libssp.a" />
+					<Add library="E:\From PSP\devkitPSP\psp\lib\libssp_nonshared.a" />
+					<Add library="E:\From PSP\devkitPSP\psp\lib\libstdc++.a" />
+					<Add library="E:\From PSP\devkitPSP\psp\lib\libsupc++.a" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+		</Compiler>
+		<Unit filename="game.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="game.h" />
+		<Unit filename="gusprite.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="gusprite.h" />
+		<Unit filename="main.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="vram.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="vram.h" />
+		<Extensions>
+			<code_completion />
+			<debugger />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

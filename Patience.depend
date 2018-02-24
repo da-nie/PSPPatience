@@ -1,0 +1,52 @@
+# depslib dependency file v1.0
+1212838429 source:e:\from psp\learnes\simplytextmode\main.c
+	<pspkernel.h>
+	<pspdebug.h>
+	<pspctrl.h>
+	<stdlib.h>
+
+1212940563 source:e:\from psp\learnes\simplygumode\main.c
+	<pspkernel.h>
+	<pspdebug.h>
+	<pspctrl.h>
+	<stdlib.h>
+	<pspgu.h>
+
+1214730649 source:e:\from psp\working\patience\main.c
+	<pspkernel.h>
+	<pspdebug.h>
+	<pspctrl.h>
+	<pspdisplay.h>
+	<stdlib.h>
+	<string.h>
+	<pspgu.h>
+	<pspgum.h>
+	<math.h>
+	"vram.h"
+	"gusprite.h"
+	"game.h"
+
+1206623658 e:\from psp\working\patience\vram.h
+
+1214308134 e:\from psp\working\patience\gusprite.h
+	<pspkernel.h>
+	<pspdebug.h>
+	<pspctrl.h>
+	<pspdisplay.h>
+	<psprtc.h>
+	<stdlib.h>
+	<stdio.h>
+	<string.h>
+	<pspgu.h>
+	<pspgum.h>
+
+1214301176 source:e:\from psp\working\patience\vram.c
+	"vram.h"
+	<pspge.h>
+	<pspgu.h>
+
+1214319038 source:e:\from psp\working\patience\gusprite.c
+	"gusprite.h"
+
+1214657289 e:\from psp\working\patience\game.h
+
